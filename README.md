@@ -13,8 +13,6 @@ Ferramenta de terminal em Python para consultas a fontes públicas (OSINT), aná
 - **SHA-1:** geração local e consulta de exposição via Pwned Passwords por prefixo do hash.
 - **Modo offline:** desativa consultas automáticas e abertura de navegador.
 
-Pesquisas por links não confirmam identidades. Resultados passivos não comprovam serviços ativos. Integrações externas dependem de disponibilidade, cobertura, permissões e quotas. Use as consultas apenas em contextos autorizados.
-
 ## Instalação e início no Windows
 
 Requisito: Python 3.10 ou superior disponível no PATH; internet para instalar as dependências.
