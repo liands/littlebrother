@@ -65,7 +65,7 @@ Use `h` para ajuda, `c` para redesenhar a tela, `b` para voltar e `e` para sair.
 3. Ajuste as opções em `[email_lookup]`. CheckLeaked vem desativado; requer habilitação e confirmação na tela.
 4. Inicie a aplicação. Sem chave, a fonte correspondente permanece indisponível.
 
-Variáveis de ambiente prevalecem sobre o INI. X e Meta usam `X_BEARER_TOKEN`, `META_ACCESS_TOKEN`, `META_GRAPH_VERSION` e `INSTAGRAM_USER_ID`, conforme o [guia completo](docs/GUIA_COMPLETO.md). 
+Variáveis de ambiente prevalecem sobre o INI. X e Meta usam `X_BEARER_TOKEN`, `META_ACCESS_TOKEN`, `META_GRAPH_VERSION` e `INSTAGRAM_USER_ID`
 
 ## Linux e macOS
 
