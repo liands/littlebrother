@@ -1,0 +1,16 @@
+.venv
+.tools
+.work
+.git
+__pycache__
+*.pyc
+*.zip
+*.prfl
+*.bak
+*.lock
+.env
+config.ini
+config.local.ini
+checkleaked_usage.sqlite3*
+credentials*
+Watched
