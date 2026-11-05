@@ -62,8 +62,6 @@ Use `h` para ajuda, `c` para redesenhar a tela, `b` para voltar e `e` para sair.
 
 ## Chaves de API
 
-**Este backup não contém as chaves da instalação original.** `config.ini` é privado e fica fora do Git. O modelo `configuracao.exemplo.ini` tem os campos vazios.
-
 1. Execute `configurar-apis.bat` ou copie `configuracao.exemplo.ini` para `config.ini`.
 2. Preencha somente as chaves dos serviços utilizados em `[api_keys]`: `HIBP_API_KEY`, `HUNTER_API_KEY`, `KICKBOX_API_KEY` e, se necessário, `CHECKLEAKED_API_KEY`.
 3. Ajuste as opções em `[email_lookup]`. CheckLeaked vem desativado; requer habilitação e confirmação na tela.
