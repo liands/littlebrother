@@ -85,8 +85,6 @@ No Windows, perfis ficam por padrão em `%LOCALAPPDATA%\LittleBrother\profiles`;
 
 ```powershell
 .\iniciar.bat --check
-New-Item -ItemType Directory -Path .work -Force | Out-Null
-.\.venv\Scripts\python.exe -B -m unittest discover -s tests -v
 .\.venv\Scripts\python.exe -m pip check
 ```
 

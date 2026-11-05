@@ -317,16 +317,7 @@ Há `.htaccess` com `Require all denied` porque este projeto é uma aplicação 
 
 ```powershell
 .\iniciar.ps1 --check
-.\verificar.ps1
-.\.venv\Scripts\python.exe -B -m unittest discover -s tests -v
 .\.venv\Scripts\python.exe -m pip check
 ```
 
-Os testes usam respostas simuladas e arquivos temporários, incluindo falha HTTP, autenticação ausente, JSON inválido, URLs, persistência, concorrência e fluxos de menu. O teste de symlink pode ser ignorado quando o Windows não permite criar links. Testes de APIs autenticadas com credenciais reais dependem da configuração local; testes simulados não confirmam permissões ou acesso contratado.
-
-O Dockerfile usa Python 3.13, usuário sem privilégios e volume separado `/data`. É preciso Docker instalado para validar e executar a imagem; build de container não substitui os testes de permissões de APIs.
-
-```sh
-docker build -t littlebrother-local .
-docker run --rm -it -v littlebrother-data:/data littlebrother-local --offline
-```
+O diagnóstico `--check` informa dependências e configuração sem realizar consultas externas. `pip check` verifica a compatibilidade das dependências instaladas.
